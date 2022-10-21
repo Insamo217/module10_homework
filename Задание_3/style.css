@@ -1,0 +1,125 @@
+.chat p,
+.chat a {
+  border: 1px solid;
+  padding: 5px;
+  width: 50%;
+  white-space: break-spaces;
+  color: black;
+  text-align: center;
+  display: block;
+  border-radius: 25px;
+}
+
+.chat p.echo {
+  background: #ffab40;
+  margin: auto auto auto 0;
+}
+
+.chat p.user,
+.chat a {
+  background: #cdc2b4;
+  margin: 10px 0px 10px auto;
+}
+
+.chat {
+  border: 2px dashed red;
+  width: 510px;
+  position: relative;
+  margin: auto;
+  padding: 15px;
+}
+
+div#info {
+  margin: 20px 0;
+  background: red;
+  display: inline-block;
+  padding: 15px;
+  font-style: italic;
+  color: white;
+}
+
+main {
+  text-align: center;
+  margin-top: 50px;
+}
+
+p.auto {
+  margin: auto;
+  background: none;
+  color: black;
+  border: none;
+  font-weight: bold;
+  width: auto;
+}
+
+.btn {
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 1px;
+  margin: 0 15px 15px 0;
+  outline: none;
+  border: 1px solid #f18230;
+  border-radius: 25px;
+  height: 46px;
+  line-height: 0;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+  color: #fff;
+  background-color: #fff;
+  position: relative;
+  overflow: hidden;
+  vertical-align: top;
+  cursor: pointer;
+  user-select: none;
+  appearance: none;
+  touch-action: manipulation;
+}
+.btn span {
+  display: block;
+  box-sizing: border-box;
+  padding: 0 25px;
+  height: 42px;
+  line-height: 38px;
+  border: 1px solid #f18230;
+  border-radius: 25px;
+  font-size: 14px;
+  color: #ffffff;
+  background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.25) 0%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    #f18230;
+  text-align: center;
+  font-weight: 600;
+}
+.btn:focus-visible {
+  box-shadow: 0 0 0 3px lightskyblue;
+}
+.btn:hover span {
+  background-color: #fba768;
+}
+.btn:active span {
+  background-color: #c17237 !important;
+}
+
+.textarea {
+  width: 510px;
+  height: 70px;
+  padding: 12px 20px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+@media (max-width: 768px) {
+  .textarea {
+    width: 80%;
+  }
+  .chat {
+    width: 80%;
+  }
+}

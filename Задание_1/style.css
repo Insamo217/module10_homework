@@ -1,0 +1,27 @@
+.btn {
+  cursor: pointer;
+  position: relative;
+  padding: 35px;
+  background: red;
+}
+
+.btn_icon {
+  width: 20px;
+  height: 20px;
+}
+
+svg.svgBtn {
+  display: none;
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  width: 40px;
+  height: 40px;
+}
+
+svg.show {
+  display: block;
+}

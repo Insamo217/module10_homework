@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Чат с эхо сервером</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <form action="#" method="#" id="form">
+        <input
+          maxlength="50"
+          class="textarea"
+          type="text"
+          name="message"
+          placeholder="Напишите сообщение"
+        />
+      </form>
+      <div class="buttonList">
+        <button class="btn" type="submit" id="send">
+          <span>Отправить</span>
+        </button>
+        <button class="btn" id="geo"><span>Геолокация</span></button>
+        <button class="btn" id="clear"><span>Очистить</span></button>
+        <button class="btn" type="input" id="restart">
+          <span>Перезагрузка</span>
+        </button>
+      </div>
+      <div class="info" id="info">Ожидание...</div>
+      <div class="chat" id="chat">
+        <p class="auto">Чат обмена сообщениями с Эхо сервером</p>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

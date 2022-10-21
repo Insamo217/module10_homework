@@ -1,0 +1,25 @@
+button.btn {
+  cursor: pointer;
+  position: relative;
+  padding: 10px 35px;
+  background: red;
+  width: 200px;
+}
+
+button.btn p {
+  color: white;
+  font-weight: bold;
+  line-height: 1.4;
+}
+
+svg.show {
+  display: block;
+}
+
+button.btn:hover {
+  background: white;
+}
+
+button.btn:hover p {
+  color: red;
+}
